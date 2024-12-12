@@ -3,34 +3,24 @@
 
 **Assalamualaikum,**  
 Welcome to **Global Sustainable Tomorrow**, a miniature website designed as a sustainability forum. This project aims to promote sustainability through a user-friendly and responsive platform.  
-
 ---
-
 ## ✨ Features
-
 - **User Registration and Login**: A secure system for users to sign up and log in.
 - **Forum**: Users can share posts and ideas related to sustainability.
 - **Responsive Design**: Clean, modern, and accessible styling with CSS.
 - **Dynamic Interactivity**: Seamless user experience powered by JavaScript.
-
 ---
-
 ## 🔧 Tech Stack
-
 ### **Frontend**
 - **HTML**: Structuring the website.
 - **CSS**: Styling and layout.
 - **JavaScript**: Interactivity and dynamic behavior.
-
 ### **Backend**
 - **PHP**: Server-side logic.
 - **MySQL**: Database management.
 - **phpMyAdmin**: Local database management via XAMPP.
-
 ---
-
 ## 📂 Project Files and Their Roles
-
 | **File/Folder**   | **Purpose**    |
 |--------------------|-----------------------------------------------------------------------------------------------|
 | `image/`          | Stores images, icons, and assets for visual appeal.                                           |
@@ -63,29 +53,20 @@ o	sustainable_tomorrow: Handles forum-related data.
 •	Import the provided SQL file (located in your project folder) into each database to set up the schema and populate initial data.
 5. Launch the Project
 •	Open a web browser and navigate to:
-http://localhost/sustainable%20tomorrow/.
+http://localhost/sustainable tomorrow/.
 •	Interact with the website to explore its features, including
-
 ## 🛠️ How It Works
-
 ### Frontend
 - **Pages**: `index.php`, `login.php`, and `register.php` provide UI, styled with `style.css` and made interactive by `script.js`.
-
 ### Backend
 - **Logic**: `server.php` and `addPost.php` handle user management and post creation.
 - **Error Feedback**: `errors.php` displays form validation errors.
-
 ### Database
 - **Real-time Updates**: `server.php` and `getPosts.php` dynamically retrieve and update posts.
-
----
-
 ## 📸 Screenshots
-
 Here are a few screenshots showcasing the website's design and functionality:
-
 - **Registration Page**![image alt](https://github.com/Jannatul3760/project-web/blob/5136964a1868e0ad02297fe71eeac7a96e3c7dba/Screenshot%202024-12-09%20103025.png)
 - **Login Page**![image alt](https://github.com/Jannatul3760/project-web/blob/77cac3d449c297fb057fe93c0e1f3d68a356bf55/Screenshot%202024-12-09%20103107.png)
-- **Forum Page**![image alt]()
+- **Forum Page**![image alt](https://github.com/Jannatul3760/project-web/blob/f890ad5b7aaa1ea98bbd96505778f526d7a391a8/Screenshot%202024-12-09%20111035.png)
 ---
 ### 🌟 Thank You for Visiting!
