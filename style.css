@@ -1,0 +1,420 @@
+* { 
+
+  margin: 0px; 
+
+  padding: 0px; 
+
+} 
+
+ 
+body {
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+    height: 100vh; /* Set the height to 100% of the viewport */
+    background-image: url('image/World-Nature-Conservation-Day-1100x619.png'); /* Replace with your image path */
+    background-size: cover; /* Ensures the image covers the entire area */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    background-position: center; /* Centers the image */
+}
+
+ 
+
+.header { 
+
+  width: 30%; 
+
+  margin: 50px auto 0px; 
+
+  color: white; 
+
+  background: linear-gradient(to right, #c9eaff ,#56ab2f
+  ); 
+
+  text-align: center; 
+
+  border: 1px solid #B0C4DE; 
+
+  border-bottom: none; 
+
+  border-radius: 10px 10px 0px 0px; 
+
+  padding: 20px; 
+
+} 
+
+form, .content { 
+
+  width: 30%; 
+
+  margin: 0px auto; 
+
+  padding: 20px; 
+
+  border: 1px solid #B0C4DE; 
+
+  background: white; 
+
+  border-radius: 0px 0px 10px 10px; 
+
+} 
+
+.input-group { 
+
+  margin: 10px 0px 10px 0px; 
+
+} 
+
+.input-group label { 
+
+  display: block; 
+
+  text-align: left; 
+
+  margin: 3px; 
+
+} 
+
+.input-group input { 
+
+  height: 30px; 
+
+  width: 93%; 
+
+  padding: 5px 10px; 
+
+  font-size: 16px; 
+
+  border-radius: 5px; 
+
+  border: 1px solid gray; 
+
+} 
+
+.btn { 
+
+  padding: 10px; 
+
+  font-size: 15px; 
+
+  color: white; 
+
+  background: linear-gradient(to right, #578cad
+  , #56ab2f);
+
+  border: none; 
+
+  border-radius: 5px; 
+
+} 
+.btn :hover { 
+
+  padding: 10px; 
+
+  font-size: 25px; 
+
+  color: white; 
+
+  background: green;
+
+  border: none; 
+
+  border-radius: 5px; 
+  cursor: pointer;
+
+} 
+.error { 
+
+  width: 92%;  
+
+  margin: 0px auto;  
+
+  padding: 10px;  
+
+  border: 1px solid #a94442;  
+
+  color: #a94442;  
+
+  background: #f2dede;  
+
+  border-radius: 5px;  
+
+  text-align: left; 
+
+} 
+
+.success { 
+
+  color: #3c763d;  
+
+  background: #dff0d8;  
+
+  border: 1px solid #3c763d; 
+
+  margin-bottom: 20px; 
+
+}
+
+#forum {
+    margin-top: 20px;
+}
+
+#forum h3 {
+    font-size: 1.5rem;
+    color: #5dade2;
+    margin-bottom: 10px;
+}
+
+/* Form styles */
+
+/* Heading styling */
+h1 {
+    text-align: center;
+    color: #333;
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+/* Form styling */
+/* General styles for the container */
+
+/* Form styling */
+#postForm {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-bottom: 20px;
+     background: linear-gradient(to right, #56ab2f, #acc68b);
+}
+
+#postForm input, 
+#postForm textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color:white;
+    box-sizing: border-box;
+}
+
+#postForm textarea {
+    resize: vertical;
+    min-height: 100px;
+}
+
+#postForm button {
+    align-self: flex-start;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+     background-color:#007BFF;
+}
+
+#postForm button:hover {
+    background-color: blue;
+    font-size:26px ;
+}
+
+/* Posts container */
+#posts {
+    margin-top: 20px;
+}
+
+/* Individual post styles */
+.post {
+    padding: 15px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+.post h3 {
+    margin: 0 0 10px;
+    font-size: 18px;
+    color: #007BFF;
+}
+
+.post p {
+    margin: 0;
+    font-size: 16px;
+    color: #555;
+}
+
+/* Posts container styling */
+
+.sustainability-message {
+  background: linear-gradient(to right, #56ab2f, #acc68b); /* Vibrant green gradient */
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  font-family: 'Arial', sans-serif;
+}
+
+.sustainability-message h1 {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #ffffff;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+ 
+}
+
+.sustainability-message p {
+  font-size: 1.2rem;
+  color: #ffffff;
+  line-height: 1.6;
+  margin: 0;
+  font-style: italic;
+} 
+/* General Reset */
+
+/* Header Section */
+.hi {
+  background: linear-gradient(to right, #56ab2f, #acc68b);
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+/* Main Header */
+.h1 {
+  font-size: 1rem;
+  color: #333;
+  margin-bottom: 10px;
+  text-align: center;
+  text-transform: uppercase;
+  margin-top: 10px;
+  background-color: #91c788;
+}
+
+/* Main Section Styling */
+.main1 {
+ background: #CDDEC7;
+    border: 2px solid #91c788; /* Complementary green border */
+    border-radius: 8px; /* Rounded corners */
+    padding: 5px; /* Add space inside the div */
+    font-family: 'Arial', sans-serif; /* Clean and readable font */
+    color: #624A40 ; /* Dark greenish-gray text for contrast */
+    font-size: 14px;
+    box-shadow: 0 4px 8px #d5edd6; /* Subtle shadow for depth */
+    margin : 5px;
+  
+}
+
+.sustainability-section {
+background: #CDDEC7;
+    border: 2px solid #91c788;
+    font-size: 14px;
+}
+
+.sustainability-section h2 {
+  font-size: 15px;
+  color: green;
+}
+
+.sustainability-section p {
+  color: #555;
+ font-size: 14px;
+}
+
+/* Section Separator */
+.sustainability-section:not(:last-child) {
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+}
+/* General styles for the container */
+.form-container {
+    width: 100%;
+    max-width: 500px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+}
+
+/* Style for input fields */
+.form-container input[type="text"],
+.form-container textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+/* Focus effect for input fields */
+.form-container input[type="text"]:focus,
+.form-container textarea:focus {
+    outline: none;
+    border-color: #007BFF;
+    box-shadow: 0 0 4px rgba(0, 123, 255, 0.4);
+}
+
+/* Style for the button */
+.form-container button {
+    width: 30%;
+    padding: 10px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* Hover effect for the button */
+#button:hover {
+    background-color: green;
+    font-size: 26px;
+}
+
+/* Style for placeholder text */
+.form-container input::placeholder,
+.form-container textarea::placeholder {
+    color: #aaa;
+    font-size: 14px;
+}
+
+/* Header styling */
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .hi, .main1 {
+    padding: 15px;
+  }}
+.hi h2 {
+    color: black; /* Vibrant green for the heading */
+    
+    margin-bottom: 10px; /* Space below the heading */
+}
+
+.hi em {
+    color:#41312A ; /* Medium green for emphasized text */
+    font-style: italic; /* Standard italic styling */
+}
+
+.hi strong {
+    color:#41312A ; /* Dark green for strong emphasis */
+    font-weight: bold; /* Bold styling */
+}
+
+.hi p {
+      margin: 10px 0; 
+    font-size: 10px;
+}
+
+
+
