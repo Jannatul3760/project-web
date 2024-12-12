@@ -48,7 +48,6 @@ Follow these steps to set up and run the Global Sustainable Tomorrow project on 
 5. Launch the Project
 •	Open a web browser and navigate to:
 http://localhost/sustainable tomorrow/.
-•	Interact with the website to explore its features, including
 ## 🛠️ How It Works
 ### Frontend
 - **Pages**: `index.php`, `login.php`, and `register.php` provide UI, styled with `style.css` and made interactive by `script.js`.
