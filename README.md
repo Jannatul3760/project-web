@@ -84,7 +84,7 @@ http://localhost/sustainable%20tomorrow/.
 
 Here are a few screenshots showcasing the website's design and functionality:
 
-- **Registration Page**
+- **Registration Page**https://github.com/Jannatul3760/project-web/blob/5136964a1868e0ad02297fe71eeac7a96e3c7dba/Screenshot%202024-12-09%20103025.png
 - **Login Page**
 - **Forum Page**
 ---
