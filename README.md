@@ -1,6 +1,5 @@
 
 # 🌍 Global Sustainable Tomorrow
-
 **Assalamualaikum,**  
 Welcome to **Global Sustainable Tomorrow**, a miniature website designed as a sustainability forum. This project aims to promote sustainability through a user-friendly and responsive platform.  
 ---
@@ -42,14 +41,9 @@ Follow these steps to set up and run the Global Sustainable Tomorrow project on 
 2. Prepare the Project Files
 •	Copy your project folder into the htdocs directory, located within the XAMPP installation directory.
 3. Start Local Server Services
-•	Open the XAMPP Control Panel.
-•	Start the Apache service to enable the server.
-•	Start the MySQL service to enable the database.
+• Open the XAMPP Control Panel.Start the Apache service to enable the server.Start the MySQL service to enable the database.
 4. Database Setup
-•	Open phpMyAdmin in your browser.
-•	Create the following databases:
-o	sustainable tomorrow: Manages user login and registration.
-o	sustainable_tomorrow: Handles forum-related data.
+•	Open phpMyAdmin in your browser.Create the following databases: sustainable tomorrow: Manages user login and registration,sustainable_tomorrow: Handles forum-related data.
 •	Import the provided SQL file (located in your project folder) into each database to set up the schema and populate initial data.
 5. Launch the Project
 •	Open a web browser and navigate to:
